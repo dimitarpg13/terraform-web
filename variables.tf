@@ -1,18 +1,10 @@
-variable "access_key" {
-  description = "my secret key"
-}
-
-variable "secret_key" {
-  description = "my secret key"
-}
-
 variable "region" {
   description = "The AWS region."
 }
 
 variable "key_name" {
     description = "The AWS key pair to use for resources."
-    default = "james"
+    default = "DimitarAWSTest2"
 }
 
 variable "ami" {
